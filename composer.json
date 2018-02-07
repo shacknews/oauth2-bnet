@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Depotwarehouse\\OAuth2\\Client\\": "src/"
+            "Tsdarky\\OAuth2\\Client\\": "src/"
         }
     },
     "require": {
