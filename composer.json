@@ -1,5 +1,4 @@
 {
-    "name": "tsdarky/oauth2-bnet",
     "description": "A Battle.net provider for league/oauth2-client",
     "license": "MIT",
     "authors": [
