@@ -13,7 +13,7 @@ class SC2Provider extends BattleNet
 
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return "https://{$this->region}.api.battle.net/sc2/profile/user?access_token={$token}";
+        return "https://{$this->region}.api.blizzard.com/sc2/profile/user?access_token={$token}";
     }
 
     protected function createResourceOwner(array $response, AccessToken $token)
