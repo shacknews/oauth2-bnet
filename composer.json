@@ -1,15 +1,16 @@
 {
+    "name": "shacknews/oauth2-bnet",
     "description": "A Battle.net provider for league/oauth2-client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Troy Pavlek",
-            "email": "troy@tpavlek.me",
-            "homepage": "http://tpavlek.me",
+            "name": "Patrick Lucas",
+            "email": "patrick.lucas@greenlit-content.com",
+            "homepage": "https://www.shacknews.com",
             "role": "Developer"
         },
         {
-            "name": "tsdarky",
+            "name": "plonkus",
             "role": "Developer"
         }
     ],
