@@ -13,7 +13,7 @@ class BlizzardProvider extends BattleNet
 
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return "https://{$this->region}.api.blizzard.com/oauth/userinfo?access_token={$token}";
+        return "https://{$this->region}.api.battle.net/oauth/userinfo?access_token={$token}";
     }
 
     protected function createResourceOwner(array $response, AccessToken $token)
