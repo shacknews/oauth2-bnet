@@ -6,7 +6,7 @@ use Depotwarehouse\OAuth2\Client\Entity\SC2User;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Token\AccessToken;
 
-class BlizzardProfile extends BattleNet
+class BlizzardProvider extends BattleNet
 {
 
     protected $game = "sc2";
