@@ -15,4 +15,15 @@ class BlizzardProfile extends BattleNet
     {
         return "https://{$this->region}.api.blizzard.com/oauth/userinfo?access_token={$token}";
     }
+
+    protected function createResourceOwner(array $response, AccessToken $token)
+    {
+        $response = (array)($response);
+
+        $user = new SC2User($response, $this->region);
+
+        return $user;
+    }
+
+
 }
