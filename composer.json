@@ -16,11 +16,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tsdarky\\OAuth2\\Client\\": "src/"
+            "League\\OAuth2\\Client\\": "src/"
         }
     },
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=5.6",
         "league/oauth2-client": "^2.3",
         "illuminate/contracts": "^5.1"
     },
