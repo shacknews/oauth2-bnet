@@ -2,7 +2,7 @@
 
 namespace Depotwarehouse\OAuth2\Client\Provider;
 
-use Depotwarehouse\OAuth2\Client\Entity\SC2User;
+use Depotwarehouse\OAuth2\Client\Entity\BlizzardUser;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Token\AccessToken;
 
@@ -20,7 +20,7 @@ class BlizzardProvider extends BattleNet
     {
         $response = (array)($response);
 
-        $user = new SC2User($response, $this->region);
+        $user = new BlizzardUser($response, $this->region);
 
         return $user;
     }
